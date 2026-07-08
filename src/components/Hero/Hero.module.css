@@ -1,0 +1,16 @@
+.hero-content{
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    margin: auto;
+    position: center;
+}
+.hero-btn{
+    
+    padding: 12px 30px;
+    border-radius: 25px;
+}
+
+.backgroundImage{
+    
+}
