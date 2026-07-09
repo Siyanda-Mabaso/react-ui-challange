@@ -5,18 +5,16 @@ import "./Navbar.css";
 
 function Navbar(){
     return(
-        <nav>
-            <div className="content">
-                <h1>Patisserie</h1>
-                <a href='/#'className="nav-links">Home</a>
-                <a href='/#'className="nav-links">Menu</a>
-                <a href='/#'className="nav-links">Cakes</a>
-                <a href='/#'className="nav-links">Parties</a>
-                <a href='/#'className="nav-links">Contact</a>
-                
-            </div>
-            <div><button className="btn">Order Now</button></div>
-            
+        <nav className="navbar">
+           <h1 className="logo">Patisserie</h1>
+           <ul className="nav-links">
+            <li><a href="#">Home</a></li>
+            <li><a href="#">Menu</a></li>
+            <li><a href="#">Cakes</a></li>
+            <li><a href="#">Parties</a></li>
+            <li><a href="#">Contacts</a></li>
+           </ul>
+           <button className="order-btn">Order Cake Now</button>
         </nav>
     )
 }

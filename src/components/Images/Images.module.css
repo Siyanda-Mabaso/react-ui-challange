@@ -1,0 +1,35 @@
+.img{
+    width: 30vw;
+    height: 200px;
+    object-fit: cover;
+    
+
+
+}
+.container{
+    display: flex;
+    flex-direction: row;
+    gap: 20px;
+    padding: 40px;
+background-color: pink;
+align-items: center;
+
+}
+.flexboxItem {
+  flex: 1;
+  position: relative;
+
+}
+
+.text{
+  
+   
+    background-color:  pink;
+    margin-top: 0px;
+    margin-bottom: -1px;
+    align-items: flex-end;
+    text-align: center;
+
+
+}
+

@@ -1,25 +1,21 @@
-import './Hero.module.css'
+// import './Hero.module.css'
 import sectionImage from '../../assets/images/herosection.png'
-// import styles from  './Hero.module.css'
+import styles from  './Hero.module.css'
+import herosection from'../../assets/images/herosection.png'
 
 function Hero(){
   return (
-    <>
-      <div >
-      <div style={{backgroundImage:`url(${sectionImage})`,
-      minHeight:'40vh', 
-      backgroundSize:'cover', 
-      backgroundPosition:'center',
-      backgroundRepeat:'no-repeat'
-      }}>     
-      <div className="hero-content">
-       <h1 className="hero-title"> Delight in</h1>
-       <p className="hero-p">PARTICU IN FUERY BITE!</p>
-       <button className="hero-btn">ORDER now</button>
-       </div>
-      </div>
-      </div>
-      </>
+  <>
+   <div className={styles['container']}>
+    <img src={herosection} alt="image" className={styles['img']} />
+    <div className={styles['centered']}>
+    <h1>Delight In</h1>
+    <p>PARTIICU IN EVERY BITE!</p>
+    <button className={styles['btn-ordernow']}>Order now</button> 
+    </div>
+    </div>
+    
+  </>
   )
 }
  export default Hero;
