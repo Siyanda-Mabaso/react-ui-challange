@@ -24,3 +24,8 @@
     cursor: pointer;
 
 }
+/* @media(max-width:767px){ */
+    .nav-links{
+        flex-direction: ;
+        background-color: aqua;
+    }
