@@ -1,0 +1,25 @@
+.img{
+    width: 30vw;
+    height: 200px;
+object-fit: cover; 
+
+}
+
+.flexboxItem{
+  flex: 5;
+  position: relative;
+  display: flex;
+  gap: 10rem;
+}
+.container{
+    /* display: flex; */
+    flex-direction: row;
+    gap: 20px;
+    padding: 40px;
+    align-items: center;
+}
+.icons{
+    width: 10%;
+    /* justify-content: space-between; */
+    gap: 10px;
+}

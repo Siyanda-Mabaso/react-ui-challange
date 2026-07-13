@@ -47,8 +47,7 @@ object-fit: cover;
     flex-direction: row;
     gap: 20px;
     padding: 40px;
-
-align-items: center;
+    align-items: center;
 }
 .header-collection{
      margin-top: 0px;
@@ -60,10 +59,13 @@ align-items: center;
 .btn-holiday{
     position: absolute;
     margin-right: 80px;
+    background-color: rgb(243, 69, 98);
+    width: 100px;
+    height: 30px;
 }
 .test{
     position: absolute;
-    top: 50%;
-    left: 50%;
+    top: 20%;
+    left: 30%;
     font-size: 20px;
 }

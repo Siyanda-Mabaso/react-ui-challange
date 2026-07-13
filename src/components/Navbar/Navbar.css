@@ -26,6 +26,6 @@
 }
 /* @media(max-width:767px){ */
     .nav-links{
-        flex-direction: ;
+        flex-direction: row;
         background-color: aqua;
     }
