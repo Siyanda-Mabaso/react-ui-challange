@@ -3,6 +3,7 @@
     flex-direction: row;
     gap: 20px;
     padding: 40px;
+    background-color: beige;
 
 align-items: center;
 
@@ -17,18 +18,21 @@ align-items: center;
     border: none;
      width: 50%;
     height: 5vw;
+    cursor: pointer;
 }
 .btn-macaroni{
     background-color: pink;
     border: none; width: 50%;
     height: 5vw;
+    cursor: pointer;
 }
     
 .btn-cupcake{
-    background-color: pink;
+    background-color: rgb(243, 71, 99);
     border: none;
     width: 50%;
     height: 5vw;
+    cursor: pointer;
 }
 .img{
     width: 30vw;
@@ -48,24 +52,46 @@ object-fit: cover;
     gap: 20px;
     padding: 40px;
     align-items: center;
+    background-color: beige;
 }
 .header-collection{
      margin-top: 0px;
     margin-bottom: -1px;
     align-items: flex-end;
     text-align: center;
+    font-size: 80px;
+    font-style: italic;
+    color: gold;
+    background-color: beige
     
 }
 .btn-holiday{
     position: absolute;
-    margin-right: 80px;
+    /* margin-right: 80px; */
     background-color: rgb(243, 69, 98);
-    width: 100px;
+    width: 111px;
     height: 30px;
+    border: none;
+    cursor: pointer;
 }
 .test{
     position: absolute;
-    top: 20%;
+    top: 15%;
     left: 30%;
     font-size: 20px;
+}
+.btn-buy{
+     position: absolute;
+    top: 70%;
+    left: 30%;
+    font-size: 20px;
+    cursor: pointer;
+}
+.btn-order{
+     position: absolute;
+    top: 70%;
+    left: 30%;
+    font-size: 20px;
+    cursor: pointer;
+
 }

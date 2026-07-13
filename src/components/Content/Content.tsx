@@ -33,15 +33,17 @@ export const Content = () => {
        <div className={styles['test']}> 
         <h1>Holiday Specials</h1>
         <h2>- 20% OFF</h2>
-        <button className={styles['btn-holiday']}>Holidayss</button></div>
+        <button className={styles['btn-holiday']}>OFFER TODAY</button></div>
         </div>
 
         <div className={styles['flexboxItem1']}>
         <img src={cakecollection} alt="cakecollection" className={styles['img']}/>
+         <button className={styles['btn-buy']}>BUY TODAY</button>
         </div>
 
        <div className={styles['flexboxItem1']}>
          <img src={holidaycollection} alt="holidaycollection" className={styles['img']}/>
+          <button className={styles['btn-order']}>ORDER NOW</button>
        </div>
      
     </div>

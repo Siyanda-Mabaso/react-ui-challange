@@ -22,13 +22,11 @@ align-items: center;
 }
 
 .text{
-  
-   
-    background-color:  pink;
     margin-top: 0px;
     margin-bottom: -1px;
     align-items: flex-end;
     text-align: center;
+    background-color: pink;
 
 
 }
