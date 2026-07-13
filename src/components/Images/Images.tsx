@@ -1,5 +1,4 @@
 import styles from './Images.module.css'
-import React from 'react'
 import cupcakes from '../../assets/images/cupcakes.png'
 import macaroni from'../../assets/images/macaroni.png'
 import custom from '../../assets/images/custom.png'

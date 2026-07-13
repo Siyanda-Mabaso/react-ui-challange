@@ -1,5 +1,3 @@
-// import './Hero.module.css'
-import sectionImage from '../../assets/images/herosection.png'
 import styles from  './Hero.module.css'
 import herosection from'../../assets/images/herosection.png'
 

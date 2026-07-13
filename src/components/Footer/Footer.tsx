@@ -1,4 +1,3 @@
-import React from 'react'
 import desertfooter from '../../assets/images/desertfooter.png'
 import footercupcake from '../../assets/images/footercupcake.png'
 import styles from './Footer.module.css'

@@ -1,4 +1,3 @@
-import React from 'react'
 import styles from './Content.module.css'
 import holiday from '../../assets/images/holiday.png'
 import holidaycollection from'../../assets/images/holidaycollection.png'

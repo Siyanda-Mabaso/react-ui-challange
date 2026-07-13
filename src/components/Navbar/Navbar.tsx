@@ -1,8 +1,4 @@
-
 import "./Navbar.css";
-//*import { FaSearch } from 'react-icons/fa';
-
-
 function Navbar(){
     return(
         <nav className="navbar">
