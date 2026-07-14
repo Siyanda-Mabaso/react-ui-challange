@@ -1,58 +1,59 @@
-.hero{
-    height: 80vh;
-    background-image: url(u../src/assets/images/herosection.png);
-    background-size: cover;
-    background-position: center;
-    display: flex;
-    align-items: center;
-    background-repeat: no-repeat;
-    
-}
-.hero-overlay{
-    margin: 8rem;
-    max-width: 500px;
-}
-.hero-title{
-    margin: 1rem;
-}
-.hero-subtitle{
-    margin: 2rem;
+.container {
+    width: 100%;
+    position: relative; /* Crucial: Sets the boundary for absolute positioning */
+    overflow: hidden;
 }
 
-.img{
+.img {
  width:100%;
 height: 40vw;
- object-view-box: inherit;
+ object-view-box: inherit; /* Prevents unwanted bottom margins */
 }
 
-.container
-{
-    width: 100%;
-    height: 40vw;
-   
-   
-}
 .centered {
-position: absolute;
-top: 50%;
-left: 50%;
-transform: translateY(-110%);
-font-size: xx-large;
-color: black;
-font-weight: bold;
-padding: 10px 20px;
-
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%); /* Centers the text perfectly vertically and horizontally */
+    text-align: center; /* Centers text rows */
+    color: black;
+    width: 90%; /* Prevents text from hitting the screen edges on mobile */
+    box-sizing: border-box;
 }
-.btn-ordernow{
+
+.btn-ordernow {
     background-color: pink;
     width: 100px;
     height: 50px;
     cursor: pointer;
     border: none;
-
+    margin-top: 10px;
 }
-h1{
+
+/* Base font styles using responsive units (vw) */
+h1 {
     font-family: 'Times New Roman', Times, serif;
     font-style: italic;
-    font-size: x-large;
+    font-size: 4vw; /* Scales with screen width */
+    margin: 0;
+}
+
+p {
+    font-size: 2.5vw; /* Scales with screen width */
+    margin: 10px 0;
+}
+
+/* Mobile Adjustments */
+@media (max-width: 600px) {
+    h1 {
+        font-size: 1.8rem; /* Switches to static size so it doesn't get too microscopic */
+    }
+    p {
+        font-size: 1rem;
+    }
+    .btn-ordernow {
+        width: 90px;
+        height: 40px;
+        font-size: 0.8rem;
+    }
 }

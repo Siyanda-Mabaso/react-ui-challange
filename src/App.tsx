@@ -7,11 +7,13 @@ import { Footer } from "./components/Footer/Footer";
 function App (){
    return(
       <>
+      <div id='app-container'>
         <Navbar />
        <Hero/>
        <Images/>   
        <Content/>
        <Footer/>
+       </div>
       </>
    )
 }

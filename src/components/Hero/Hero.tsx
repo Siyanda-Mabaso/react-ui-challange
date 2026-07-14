@@ -12,6 +12,7 @@ function Hero(){
     <button className={styles['btn-ordernow']}>Order now</button> 
     </div>
     </div>
+
     
   </>
   )
