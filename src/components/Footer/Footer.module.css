@@ -31,3 +31,24 @@ object-fit: cover;
     gap:100px ;
    
 }
+@media (max-width: 1024px){
+
+    .container{
+        flex-direction: column;
+        align-items: center;
+        gap: 15px;
+        padding: 20px;
+    }
+     .flexboxItem{
+      
+        flex-direction: column;
+        align-items: center;
+        gap: 12px;
+      }
+      @media (max-width: 600px) {
+      .icon-box{
+        text-align: center;
+        gap: 30px;
+      }
+}
+}
